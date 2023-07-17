@@ -20,13 +20,3 @@ La realización de un programa el cual realiza conversión Fahrenheit a Celsius 
 `printf)"Please, enter fahrenheit as an integer: ");`: seremos educados, por lo que se pedirá el ingreso de dato, es decir, input.
 
 `scan("%d", &fahrenheit);`: scanf, el cual nos trae el input, tiene un formato de %d, que es un formato para entero, y posteriormente usamos este símbolo de fantasía llamado ampersand. El ampersand (&) significa: meterlo en la dirección de Fahrenheit. No podemos decir Fahrenheit sin el ampersand, porque Fahrenheit es una variable, en este caso queremos la dirección de tal variable, la ubicación en memoria.
-
-```c
-#include <stdio.h>
-int main(void){
-	printf("Then old age and experience, hand in hand, "\n
-		   "lead him to death and make him understand, "\n
-		   "after a search so painful and so long, "\n
-		   "that all his life he has been in the wrong. "\n);
-}
-```
