@@ -14,6 +14,7 @@ int main() {
 ```
 
 `#include <stdio.h>` es una directiva de preprocesador que le indica al compilador que incluya el archivo de encabezado (header) `stdio.h`. Este archivo es una biblioteca que contiene las declaraciones necesarias para usar funciones de entrada-salida estándar, como `printf`.
+`#include` es una palabra especial que le dice al compilador que la siguiente librería debe ser incluida, en este preciso ejemplo ya hemos hecho uso de la "standar IO (Input-Output)": `<stdio.h>`
 
 ```c
 int main() {
