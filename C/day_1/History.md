@@ -1,12 +1,9 @@
 # Un poco de historia
-El lenguaje fue concebido por Dennis Ritchie, le inventó en 1972. Su propósito era escribir un sistema operativo, el mismo que en contemporaneidad conocemos denominado como Unix.  A veces se dice que C es un ensamblador portátil; es un sistema de implementación de sistemas. Depende, además de otros lenguajes, del diseño prístino de Algol 60. Algol 60 fue un lenguaje codificado por un grupo internacional de científicos de la computación en 1960, justo al principio de la existencia de ciencias de la computación; muchos de los conceptos que a día de hoy empleamos han nacido o comenzado con Algol 60.
+El lenguaje fue concebido por Dennis Ritchie, le inventó en 1972. Su propósito era escribir un sistema operativo, el mismo que en contemporaneidad conocemos denominado como Unix.  A veces se dice que C es un ensamblador portátil; es un sistema de implementación de sistemas. Depende, además de otros lenguajes, del diseño prístino de Algol 60. Algol 60 fue un lenguaje codificado por un grupo internacional de científicos de la computación en 1960, justo al principio de la existencia de ciencias de la computación; muchos de los conceptos que a día de hoy empleamos han nacido o comenzado con Algol 60. **Es el resultado de dos lenguajes anteriores, el BCPL y el B. Fueron Kernighan y Ritchie los que publicaron una descripción definitiva del lenguaje conocida como "K&R C".**
 
 ![image](https://github.com/ainfanthe/ongoingLearning/assets/105471058/ed144107-b536-4eec-b267-82caf07e12ac)
 
-
-**Es el resultado de dos lenguajes anteriores, el BCPL y el B. Fueron Kernighan y Ritchie los que publicaron una descripción definitiva del lenguaje conocida como "K&R C".**
-
-**A raiz de la creciente popularidad de los microordenadores, comenzaron a surgir numerosas implementaciones de C que diferían en parte de la definición de K&R, creando pequeñas incompatibilidades y disminuyendo la portabilidad del lenguaje. Esto hizo necesaria la búsqueda de un C estandard, representado por el ANSI* C.**
+> **A raiz de la creciente popularidad de los microordenadores, comenzaron a surgir numerosas implementaciones de C que diferían en parte de la definición de K&R, creando pequeñas incompatibilidades y disminuyendo la portabilidad del lenguaje. Esto hizo necesaria la búsqueda de un C estandard, representado por el ANSI* C.**
 
 Originalmente el Lenguaje C estuvo muy ligado al sistema operativo UNIX que, en su mayor parte, está escrito en C. Más adelante se comenzó a utilizar en otros sistemas operativos para programar editores, compiladores, etc. Aunque se le conoce como un lenguaje de programación de sistemas, no se adapta mal al resto de aplicaciones. De hecho, hoy en día un alto porcentaje de software para ordenadores personales está escrito en Lenguaje C. Por ejemplo, el sistema operativo MS-DOS.
 
