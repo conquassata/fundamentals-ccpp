@@ -3,7 +3,13 @@ Un comentario se define como una **construcción del lenguaje de programación*
 ```c
 //Esto es un comentario en C, los fragmentos de código comentados serán ignorados por el compilador, es decir, no serán considerados parte del código en su ejecución
 
-/*Un comentario multilinea es realizado empleando una barra inclinada con un asterisco, y cerrado de manera similar, lo que se contenga será de igual manera ignorado en lectura del código por parte de la maquina*/
+/*Un comentario multilinea
+es realizado empleando una
+barra inclinada con un
+asterisco, y cerrado de manera
+similar, lo que se contenga será
+de igual manera ignorado en lectura
+del código por parte de la maquina*/
 ```
 
 La utilidad de los comentarios radica en la facilidad que ofrece para legibilidad del código, es decir, fines didácticos para explicación del mismo.
