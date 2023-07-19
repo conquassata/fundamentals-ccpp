@@ -12,7 +12,7 @@ El nombre del parámetro no es obligatorio al declarar funciones. También podem
 int **sum**(int _a_, int _b_);
 int **sum**(int , int);
 ```
-![[Pasted image 20230718234925.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/12f26071-7c53-4682-a194-3902424d2afa)
 
 ## Definición de funciones
 La definición de la función consiste en sentencias reales que se ejecutan cuando se llama a la función (es decir, cuando el control del programa llega a la función). Una función C generalmente se define y declara en un solo paso porque la definición de la función siempre comienza con la declaración de función, por lo que no necesitamos declararla explícitamente. El ejemplo siguiente sirve como definición de función y como declaración.
@@ -24,12 +24,12 @@ return_type **function_name** (para1_type _para1_name,_ para2_type _para2_name_)
 }
 ```
 
-![[Pasted image 20230718235047.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/96ac66a4-f54a-41f0-9aa0-1b2c2c288428)
 
 ## Llamada de función
 Una llamada a función es una instrucción que indica al compilador que ejecute la función. Usamos el nombre de la función y los parámetros en la llamada a la función. En el ejemplo siguiente, se llama a la primera función de suma y 10,30 se pasa a la función de suma. Después de la función, la suma de llamada de a y b se devuelve y el control también se devuelve a la función principal del programa.
 
-![[Pasted image 20230718235121.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/faf2807d-14dc-45dc-9d7c-c137fc717a89)
 
 ## Tipos de funciones
 Hay dos tipos de funciones en C:
@@ -37,7 +37,7 @@ Hay dos tipos de funciones en C:
 1. **Funciones de la biblioteca**
 2. **Funciones definidas por el usuario**
 
-![[Pasted image 20230718235522.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/72e1c799-37f9-40ed-b781-809832e3ba5b)
 
 ### 1. Función de biblioteca
 
@@ -129,7 +129,7 @@ return 0;
 ## Pasar parámetros a funciones
 Los datos pasados cuando se invoca la función se conocen como parámetros reales. En el siguiente programa, 10 y 30 se conocen como parámetros reales. Los parámetros formales son la variable y el tipo de datos mencionados en la declaración de funciones. En el siguiente programa, a y b se conocen como parámetros formales.
 
-![[Pasted image 20230719000111.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/f11bd144-af1f-49b8-a371-06aa739e38e0)
 
 ---
 
