@@ -1,4 +1,4 @@
-Una **función en C** es un conjunto de sentencias que cuando se llaman realizan alguna tarea específica. Es el bloque de construcción básico de un programa C que proporciona modularidad o reutilización de código. Las sentencias de programación de una función están encerradas dentro de **{ } llaves**, teniendo ciertos significados y realizando ciertas operaciones. También se les llama subrutinas o procedimientos en otros idiomas.
+Una **función en C** es un conjunto de sentencias que cuando se llaman realizan alguna tarea específica. Es el bloque de construcción básico de un programa C que proporciona modularidad o reutilización de código. Las sentencias de programación de una función están encerradas dentro de **{ } llaves**, teniendo ciertos significados y realizando ciertas operaciones. También se les llama subrutinas o procedimientos en otros lenguajes.
 
 ## Declaraciones de función
 En una declaración de función, debemos proporcionar el nombre de la función, su tipo de retorno y el número y tipo de sus parámetros. Una declaración de función le dice al compilador que hay una función con el nombre dado definido en otro lugar del programa.
