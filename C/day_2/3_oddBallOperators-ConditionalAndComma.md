@@ -44,6 +44,7 @@ int main()
 	return 0;
 }
 ```
+El operador condicional u operador ternario en C se usa generalmente cuando necesitamos un código condicional corto, como asignar valor a una variable basada en la condición. Se puede usar en condiciones más grandes, pero hará que el programa sea muy complejo e ilegible.
 
 # 2. Coma como operador
 En C, la coma ( , ) se puede utilizar en tres contextos:
