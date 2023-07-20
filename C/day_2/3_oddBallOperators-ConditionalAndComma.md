@@ -1,7 +1,7 @@
 # 1. Operador ternario en C
 Para entender mejor el funcionamiento, podemos analizar el diagrama de flujo del operador condicional que se da a continuación.
 
-![[Pasted image 20230719214302.png]]
+![image](https://github.com/ainfanthe/langNotes/assets/105471058/f5b9c7ef-b281-46e6-882b-737fcbeec61a)
 
 C Programa para almacenar el mayor de los dos números usando el operador ternario:
 ```c
