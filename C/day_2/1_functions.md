@@ -155,7 +155,9 @@ Se puede llamar a una función varias veces para proporcionar reutilización o m
 ## Parametros
 Los parámetros son variables declaradas en la definición de una función. Estas variables se utilizan para recibir valores desde el código que llama a la función. Los parámetros actúan como marcadores o espacios reservados para los valores que se pasan a la función cuando es llamada. Cuando se define una función, se especifican los parámetros que necesita y se les asignan nombres. Estos nombres se pueden usar dentro de la función como variables para realizar operaciones y cálculos.
 ```c
-void sumar(int a, int b) { // a y b son parametros, básicamente definiciones de las variables que almacenarán los valores correspondientes al argumento
+void sumar(int a, int b) {  // a y b son parametros, básicamente
+			   // definiciones de las variables que almacenarán
+			  // los valores correspondientes al argumento
     int resultado = a + b;
     printf("La suma es: %d\n", resultado);
 }
@@ -167,7 +169,9 @@ Los argumentos son los valores reales que se pasan a una función cuando es llam
 int main() {
     int x = 5;
     int y = 10;
-    sumar(x, y); // Aquí x e y son los argumentos que se pasan a la función sumar, estos son los valores que se almacenarán en las variables declaradas como parametro.
+    sumar(x, y);  // Aquí x e y son los argumentos que se pasan a la función
+		 // sumar, estos son los valores que se almacenarán en las
+		// variables declaradas como parametro.
     return 0;
 }
 ```
