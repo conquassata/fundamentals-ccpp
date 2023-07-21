@@ -2,7 +2,7 @@ Las clases de almacenamiento C se utilizan para describir las características d
 
 ![image](https://github.com/ainfanthe/langLearningNotes/assets/105471058/5898f790-b4f0-40a2-a191-30566bc6e968)
 
-## 1. extern
+## 1. Extern
 La clase de almacenamiento extern simplemente nos dice que la variable se define en otro lugar y no dentro del mismo bloque donde se usa. Básicamente, el valor se le asigna en un bloque diferente y esto también se puede sobrescribir / cambiar en un bloque diferente. Por lo tanto, una variable externa no es más que una variable global inicializada con un valor legal donde se declara para ser utilizada en otro lugar. Se puede acceder a él dentro de cualquier función / bloque.
 
 Además, una variable global normal también se puede hacer extern colocando la palabra clave 'extern' antes de su declaración / definición en cualquier función / bloque. Esto básicamente significa que no estamos inicializando una nueva variable, sino que estamos usando / accediendo solo a la variable global. El objetivo principal del uso de variables extern es que se puede acceder a ellas entre dos archivos diferentes que forman parte de un programa grande.
