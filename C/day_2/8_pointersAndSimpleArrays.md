@@ -281,6 +281,6 @@ int main()
 }
 ```
 
-Este concepto no se limita al array unidimensional, también podemos referirnos a un elemento de array multidimensional utilizando punteros.
+Esto no se limita al array unidimensional, también podemos referirnos a un elemento de array multidimensional utilizando punteros.
 
 
