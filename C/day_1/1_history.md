@@ -43,9 +43,3 @@ return 0;
 ```
 
 La línea `return 0;` indica que el programa ha finalizado exitosamente y devuelve el valor 0 al sistema operativo. Este valor se utiliza a menudo para indicar que el programa se ejecutó correctamente. Sin embargo, el uso de `return 0;` en `main` es opcional en lenguaje C moderno, ya que se asume un valor de retorno de 0 si no se proporciona explícitamente.
-
-```c
-}
-```
-
-El corchete de cierre `}` indica el final de la función `main`, y el final del programa en sí. Esto ha sido un ejemplo comúnmente utilizado para familiarizarse con la sintaxis básica de C.
