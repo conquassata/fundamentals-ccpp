@@ -24,4 +24,33 @@ int main()
 ```
 En el programa anterior, cuando el compilador ejecuta la palabra LIMIT, la reemplaza con 5. La palabra 'LIMIT' en la definición de macro se denomina plantilla de macro y '5' es expansión de macro.
 
+### Macros con argumentos
+También podemos pasar argumentos a macros. Las macros definidas con argumentos funcionan de manera similar a las funciones.
+```c
+#define foo(a, b) a + b
+#define func(r) r * r
+```
 
+```c
+// C Program to illustrate function like macros
+#include <stdio.h>
+
+// macro with parameter
+#define AREA(l, b) (l * b)
+
+int main()
+{
+	int l1 = 10, l2 = 5, area;
+
+	area = AREA(l1, l2);
+
+	printf("Area of rectangle is: %d", area);
+
+	return 0;
+}
+```
+
+Podemos ver en el programa anterior que cada vez que el compilador encuentra AREA(l, b) en el programa, lo reemplaza con la sentencia (l*b). No solo esto, sino que los valores pasados a la plantilla de macro AREA(l, b) también se reemplazarán en la instrucción (l * b). Por lo tanto, AREA(10, 5) será igual a 10*5.
+
+## 2. Inclusión de archivos
+Este tipo de directiva de preprocesador le dice al compilador que incluya un archivo en el programa de código fuente. La **directiva de preprocesador #include** se utiliza para incluir los archivos de encabezado en el programa C/C++. 
